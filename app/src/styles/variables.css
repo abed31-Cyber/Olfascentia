@@ -1,0 +1,63 @@
+/* src/styles/variables.css */
+/* Thème Luxe Doré - Olfascentia */
+
+:root {
+  /* === COULEURS OR === */
+  --gold-primary: #D4AF37;
+  --gold-light: #F4E4BA;
+  --gold-dark: #996515;
+  --gold-gradient: linear-gradient(135deg, #D4AF37 0%, #F4E4BA 50%, #D4AF37 100%);
+  
+  /* === COULEURS FOND === */
+  --black-rich: #0A0A0A;
+  --black-soft: #1A1A1A;
+  --black-card: #141414;
+  
+  /* === COULEURS TEXTE === */
+  --white-cream: #FFFEF9;
+  --white-muted: #B8B8B8;
+  --text-primary: var(--white-cream);
+  --text-secondary: var(--white-muted);
+  
+  /* === ESPACEMENTS === */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  
+  /* === TYPOGRAPHIE === */
+  --font-main: 'Playfair Display', Georgia, serif;
+  --font-body: 'Lato', -apple-system, sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 3rem;
+  
+  /* === BORDURES & RADIUS === */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  --border-gold: 1px solid var(--gold-primary);
+  
+  /* === OMBRES === */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-gold: 0 4px 20px rgba(212, 175, 55, 0.3);
+  
+  /* === TRANSITIONS === */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+  
+  /* === Z-INDEX === */
+  --z-base: 1;
+  --z-dropdown: 100;
+  --z-header: 200;
+  --z-modal: 300;
+}
